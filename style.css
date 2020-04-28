@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.flex {
+	margin-top: 7%;
+	margin-left: 12%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+#font {
+	max-width: 90%;
+	font-size: 900%;
+	width: 33vw;
+}
+#button {
+	color: white;
+	width: 70%;
+	border: none;
+	border-radius: 50px;
+	background-color: #e77800;
+	font-size: 900%;
+	margin-left: 5%;
+	margin-top: 3%;
+
+	
+}
+.img1 {
+	max-width: 70%;
+	height: auto;
+}
+@media screen and (max-width: 640px) {
+  #button {
+    font-size: 3rem;
+  }
+}
