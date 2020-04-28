@@ -13,7 +13,7 @@
 	flex-wrap: wrap;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 0 3%;
+	
 
 }
 #font {
@@ -36,6 +36,7 @@
 .img1 {
 	max-width: 70%;
 	height: auto;
+	margin-left: 6%
 }
 @media screen and (max-width: 640px) {
   #button {
